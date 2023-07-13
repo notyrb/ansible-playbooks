@@ -1,0 +1,5 @@
+# Here lies First Router Details
+CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.56.105 ansible_connection=network_cli ansible_network_os=ios
+
+# Here lies Second Router Details
+CSR1kv1 ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.60.4 ansible_connection=network_cli ansible_network_os=ios
