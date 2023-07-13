@@ -1,0 +1,13 @@
+---
+- name: Change Router Configuration
+  hosts: CSR1kv1
+  gather_facts: false
+  connection: network_cli
+
+  tasks:
+    - name: Change hostname
+      ios_command:
+        commands:
+          - configure terminal
+          - hostname CSRouter1
+          - exit
