@@ -1,0 +1,16 @@
+---
+- name: Change Switch Configuration
+  hosts: nk9v
+  gather_facts: false
+  connection: network_cli
+
+  vars:
+    vlan_id: 50
+    vlan_name: VLAN50
+
+  tasks:
+    - name: Configure VLAN
+      ios_vlan:
+        vlan_id: "{{ vlan_id }}"
+        name: "{{ vlan_name }}"
+        state: present
