@@ -2,7 +2,7 @@
 - name: Change Router Configuration
   hosts: CSR1kv1
   gather_facts: false
-  #connection: network_cli
+  connection: local
 
   tasks:
     - name: Change hostname
