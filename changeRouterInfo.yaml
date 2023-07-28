@@ -1,6 +1,6 @@
 ---
 - name: Change Router Configuration
-  hosts: CSR1kv1
+  hosts: CSR1kv2
   gather_facts: false
   connection: local
 
