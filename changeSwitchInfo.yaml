@@ -1,6 +1,6 @@
 ---
 - name: Change Switch Configuration
-  hosts: nk9v
+  hosts: nk9v1
   gather_facts: false
   connection: network_cli
 
