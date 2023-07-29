@@ -5,8 +5,8 @@
   connection: network_cli
 
   vars:
-    vlan_id: 50
-    vlan_name: VLAN50
+    vlan_id: 100
+    vlan_name: VLAN100
 
   tasks:
     - name: Configure VLAN
