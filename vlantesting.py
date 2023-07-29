@@ -55,6 +55,6 @@ def device_type():
 
 
 # The pytest test function
-@pytest.mark.parametrize("vlan_id", [200])  # Add more VLAN IDs if needed
+@pytest.mark.parametrize("vlan_id", [100])  # Add more VLAN IDs if needed
 def test_vlan_configuration(switch_ip, username, password, vlan_id):
     assert check_vlan_configuration(switch_ip, username, password, vlan_id)
