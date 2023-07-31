@@ -51,6 +51,6 @@ def device_type():
     return Device_type
 
 # The pytest test function
-@pytest.mark.parametrize("hostname", ["CSRouter47"])
+@pytest.mark.parametrize("hostname", ["CSRouter48"])
 def test_vlan_configuration(router_ip, username, password, hostname):
     assert check_vlan_configuration(router_ip, username, password, hostname)
