@@ -9,5 +9,5 @@
       ios_command:
         commands:
           - configure terminal
-          - hostname CSRouter48
+          - hostname CSRouter47
           - exit
